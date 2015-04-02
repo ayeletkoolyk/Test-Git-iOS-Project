@@ -14,6 +14,7 @@
 		CADAE8821ACDAE4100EF2031 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADAE8811ACDAE4100EF2031 /* Images.xcassets */; };
 		CADAE8851ACDAE4100EF2031 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CADAE8831ACDAE4100EF2031 /* LaunchScreen.xib */; };
 		CADAE8911ACDAE4100EF2031 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CADAE8901ACDAE4100EF2031 /* Git_TestTests.m */; };
+		CADAE89C1ACDB12C00EF2031 /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CADAE89B1ACDB12C00EF2031 /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CADAE88A1ACDAE4100EF2031 /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADAE88F1ACDAE4100EF2031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CADAE8901ACDAE4100EF2031 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		CADAE89A1ACDB12C00EF2031 /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		CADAE89B1ACDB12C00EF2031 /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				CADAE8811ACDAE4100EF2031 /* Images.xcassets */,
 				CADAE8831ACDAE4100EF2031 /* LaunchScreen.xib */,
 				CADAE8741ACDAE4100EF2031 /* Supporting Files */,
+				CADAE89A1ACDB12C00EF2031 /* CCTest.h */,
+				CADAE89B1ACDB12C00EF2031 /* CCTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CADAE87D1ACDAE4100EF2031 /* ViewController.m in Sources */,
+				CADAE89C1ACDB12C00EF2031 /* CCTest.m in Sources */,
 				CADAE87A1ACDAE4100EF2031 /* AppDelegate.m in Sources */,
 				CADAE8771ACDAE4100EF2031 /* main.m in Sources */,
 			);
